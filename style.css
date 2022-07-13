@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    position: relative;
+    height: 100%;
+    font-weight: 600;
+    
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    display: none;
+    
+}
+.wrapper{
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    margin: auto ;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 10px;
+}
+.border-image{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+h2{
+    margin-top: 15px;
+    font-weight: 900;
+}
+.text-wrapper{
+    padding: 10px;
+}
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 23px;
+    padding: 15px 25px;
+    
+}
+.plan{
+    display: flex;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 5px;
+    margin: 10px 13px;
+    padding: 10px;
+    width: 90%;  
+    border-radius: 10px;
+}
+.year{
+    margin: 10px;
+    text-align: left;
+}
+.annual{
+    padding: 5px;
+    font-weight: 900;
+  
+}
+.rate{
+    color: hsl(224, 23%, 55%);
+}
+.change{
+    position: relative;
+    left: 25px;
+    top: 25px;   
+}
+.payment{
+    padding: 15px;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px 13px;
+    box-shadow: inset;
+    box-shadow: 0.1px 0px 10px 1px hsl(245, 75%, 52%);
+}
+footer{
+    padding: 10px;
+    color: hsl(224, 23%, 55%);
+}
+
+@media only screen and (min-width:500px) {
+    .wrapper{
+        width: 70%;
+    }
+   
+    
+}
+@media only screen and (min-width:600px){
+    .wrapper{
+        width: 60%;
+    }
+}
+@media only screen and (min-width:700px) {
+    .wrapper{
+        width: 50%;
+    }
+}
+@media only screen and (min-width:900px) {
+    .wrapper{
+        width: 40%;
+    }
+}
+@media only screen and (min-width:1440px) {
+    .wrapper{
+        width: 30%;
+    }
+    .change{
+        left: 100px;
+    }
+}
